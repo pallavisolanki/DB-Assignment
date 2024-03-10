@@ -6,7 +6,7 @@ o	Here’s how it applies to our scenario:
 	“Product” (many): Each product (e.g., a smartphone, a laptop) corresponds to a separate row in the “Product” table.
 	“Product_Category” (one): The product categories (e.g., Electronics, Apparel) are represented as rows in the “Product_Category” table.
 o	The “category_id” attribute in the “Product” table acts as a foreign key, linking each product to its corresponding category.
-2.	E
+2.	
 o	Suppose we have the following data:
 	Product 1: Smartphone (category_id = 1, belongs to Electronics)
 	Product 2: Laptop (category_id = 1, also belongs to Electronics)
